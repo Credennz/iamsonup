@@ -23,8 +23,23 @@ const About = () => {
   }, []);
 
   return (
-    <section id="about" ref={sectionRef} className="py-20 bg-gradient-to-b from-purple-500 via-pink-500 to-orange-400">
-      <div className="container-width section-padding">
+
+
+
+    <section id="about" ref={sectionRef} className=" bg-gradient-to-b from-purple-500 via-pink-500 to-orange-400">
+     <section className='video-sec'>
+ <div className="container-width section-padding">
+        <div className={`text-center text-white transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
+          <div className="max-w-4xl mx-auto">
+          <img src='work.png' className='work-sec'></img>
+          </div>
+        </div>
+      </div>
+  <video className="video-background" autoPlay muted loop>
+    <source src="https://www.baaja.shop/bg-vid.mp4" type="video/mp4"></source>
+  </video>
+</section>
+      {/* <div className="container-width section-padding">
         <div className={`text-center text-white transition-all duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <div className="max-w-4xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-light mb-8 leading-tight">
@@ -46,7 +61,7 @@ const About = () => {
               </h3>
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

@@ -51,49 +51,39 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
           <div>
             <div className="flex items-center gap-4 mb-6">
-              <h1 className="text-5xl md:text-6xl font-light">I'm a Designer</h1>
-              <div className="w-12 h-12 rounded-full overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face" 
-                  alt="Profile" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <h1 className="text-5xl md:text-6xl font-light">I’m not just a founder.              </h1>
+            
             </div>
             
             <div className="flex items-center gap-2 mb-8">
-              <span className="text-5xl md:text-6xl font-light">living in</span>
-              <div className="w-8 h-8 rounded overflow-hidden mx-2">
-                <img 
-                  src="https://images.unsplash.com/photo-1541849546-216549ae216d?w=32&h=32&fit=crop" 
-                  alt="Czech Republic Flag" 
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <span className="text-5xl md:text-6xl font-light">Prague,</span>
+              <span className="text-5xl md:text-6xl font-light">I’m a trader of ideas, </span>
+            
+           
             </div>
-            <h2 className="text-5xl md:text-6xl font-light text-gray-300">Czech Republic</h2>
+              <div className="flex items-center gap-2 mb-8">
+             
+            
+              <span className="text-5xl md:text-6xl font-light">a builder of ventures,</span>
+            </div>
+            <h2 className="text-5xl md:text-6xl font-light text-gray-300"> and an architect of risk.</h2>
           </div>
 
           <div className="space-y-6 text-gray-300 leading-relaxed">
-            <p>
-              With 7 years of experience, I've helped startups raise over $300M in 
-              investments. I've contributed to 50+ projects across 20+ industries, from 
-              pre-seed startups to Fortune 500 companies. Working in a fast-paced 
-              environment, collaborating with small product teams, and 
-              communicating directly with founders is something I genuinely enjoy. I 
-              have strong experience in building B2B products, driving them from 
-              concept to release by working directly with developers on design 
-              implementation. I'm independent, proficient at managing stakeholders, 
-              and capable of leading projects on my own.
+           
+
+              <p>I’ve launched startups that don’t just exist — they provoke change.  </p>
+
+<p>From Baaja (an entertainment platform reshaping music bookings)
+to Credennz (a future-driven digital venture),
+from StockSe and Quantsignal (pioneering AI in trading and finance)
+to OpinioSe and CrickSe (next-gen fantasy & sports platforms) —
+each venture is a chapter in my obsession with bold execution.  </p>
+
+<p>I move between industries, but the goal stays the same:
+build, disrupt, dominate.
             </p>
-            
-            <p>
-              I'm passionate about product design, interaction, branding, growth 
-              strategies, copywriting, engineering, and marketing. Recently, I've been 
-              exploring spatial and VR/AR design and technology, constantly seeking 
-              new ways to create immersive and engaging experiences.
-            </p>
+            <p>My work isn’t about playing safe — it’s about stepping into unknown markets and creating something others hesitate to imagine.
+Every project I touch is fueled by intuition, strategy, and relentless execution.</p>
           </div>
         </div>
 
