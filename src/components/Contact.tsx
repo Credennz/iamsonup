@@ -92,7 +92,7 @@ const Contact = () => {
           {/* Main TARASOV text */}
           <div className="flex-1 flex items-center justify-center">
             <h1 className="text-stone-200 text-8xl md:text-9xl lg:text-[12rem] xl:text-[14rem] font-bold tracking-wider leading-none">
-              SONUP
+              <img src='sonup.png' ></img>
             </h1>
           </div>
 
