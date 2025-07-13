@@ -15,23 +15,18 @@ const About = () => {
   const experiences = [
     {
       period: 'Current',
-      position: 'Senior Product Designer',
-      company: 'PricedHubble'
+      position: 'Founder & CEO',
+      company: 'Credennz: Redefining digital experiences through innovation'
     },
     {
-      period: '2020-2021',
-      position: 'Product Designer',
-      company: 'Reality (acquired by PricedHubble)'
+      period: '',
+      position: 'Founder & Strategist',
+      company: 'Baaja – India’s first music booking & bidding platform'
     },
     {
-      period: '2018-2019',
-      position: 'Awwwards Jury',
-      company: 'Member of the International Awwwards Jury'
-    },
-    {
-      period: '2017-2021',
-      position: 'Senior Designer',
-      company: 'Humbleteam'
+      period: '',
+      position: 'Algo Trader / Product Developer',
+      company: 'Quantsignal / StockSe – AI-powered fintech insights'
     }
   ];
 
@@ -98,11 +93,25 @@ Every project I touch is fueled by intuition, strategy, and relentless execution
         {/* Experience Section */}
         <section className="mb-20">
           <h3 className="text-4xl font-light mb-12">Experience</h3>
+
+        {/*  <div className="grid grid-cols-1 md:grid-cols-1 gap-8 mb-6">
+    <h4 className="text-white font-medium">
+            I’ve launched startups that don’t just exist — they provoke change.
+
+From Baaja (an entertainment platform reshaping music bookings)
+to Credennz (a future-driven digital venture),
+from StockSe and Quantsignal (pioneering AI in trading and finance)
+to OpinioSe and CrickSe (next-gen fantasy & sports platforms) —
+each venture is a chapter in my obsession with bold execution.
+
+I move between industries, but the goal stays the same:
+build, disrupt, dominate.</h4>
+          </div> */}
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {experiences.map((exp, index) => (
               <div key={index} className="space-y-2">
-                <p className="text-gray-500 text-sm">{exp.period}</p>
+                <p className="text-gray-500 text-sm">{exp.period}&nbsp;</p>
                 <h4 className="text-white font-medium">{exp.position}</h4>
                 <p className="text-gray-400">{exp.company}</p>
               </div>

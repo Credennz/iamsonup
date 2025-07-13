@@ -169,3 +169,12 @@ section.video-sec {
 .about-snp-img {
   width: 60%;
 }
+
+@media only screen and (max-width: 600px) {
+  .work-btn {
+  font-size: 40px;
+}
+  .home-top-sec {
+    padding-top: 90px;
+  }
+}

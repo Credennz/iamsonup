@@ -79,9 +79,18 @@ const Contact = () => {
               
               {/* Let's chat button */}
               <div className="flex items-center gap-3">
+                 <a 
+                  href="mailto:sonup@stockse.in" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="bg-stone-200 hover:bg-white text-black px-8 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105"
+                >
+                  Let's chat
+                </a>
+{/* 
                 <button className="bg-stone-200 hover:bg-white text-black px-8 py-3 rounded-full text-sm font-medium transition-all duration-300 hover:scale-105">
                   Let's chat
-                </button>
+                </button> */}
                 <button className="bg-red-400 hover:bg-red-500 text-white p-3 rounded-full transition-all duration-300 hover:scale-105">
                   <ArrowRight size={18} />
                 </button>
@@ -102,7 +111,7 @@ const Contact = () => {
           <div className="flex items-end justify-between pt-8 pb-8">
             <div className="text-stone-400 text-sm">
               <p>© 2025</p>
-              <p>Sonup Bhuyan</p>
+              <p>Sonup Bhuyaan</p>
             </div>
             
             <div className="grid grid-cols-2 gap-x-16 gap-y-2 text-right">
@@ -116,7 +125,7 @@ const Contact = () => {
               </div>
               <div className="space-y-2 text-left">
                               <a 
-                  href="https://twitter.com" 
+                  href="https://x.com/imsonup_" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-stone-300 hover:text-stone-200 transition-colors text-sm block"
@@ -125,7 +134,7 @@ const Contact = () => {
                 </a>
 
                 <a 
-                  href="https://instagram.com" 
+                  href="https://www.instagram.com/sonup.se" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-stone-300 hover:text-stone-200 transition-colors text-sm block"
@@ -134,7 +143,7 @@ const Contact = () => {
                 </a>
 
                 <a 
-                  href="https://linkedin.com" 
+                  href="https://www.linkedin.com/in/sonup-kumar-bhuyan/" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-stone-300 hover:text-stone-200 transition-colors text-sm block"

@@ -9,28 +9,28 @@ const Projects = () => {
     {
       id: 1,
       title: "QuantSignal",
-      description: "",
+      description: " Unlocking advanced trading insights with AI",
       image: "quantsignal.jpeg",
       size: "large"
     },
     {
       id: 2,
       title: "Credennz",
-      description: "",
+      description: "Redefining digital experiences through innovation",
       image: "credenz1.jpeg",
       size: "large"
     },
     {
       id: 3,
       title: "Baaja",
-      description: "",
+      description: "Revolutionizing how India books music & entertainment",
       image: "baaja.jpeg",
       size: "tall"
     },
     {
       id: 4,
       title: "StockSe",
-      description: "",
+      description: "Simplifying market predictions for everyday investors",
       image: "stockse.jpeg",
       size: "large"
     },
@@ -81,6 +81,9 @@ const Projects = () => {
               <div className="relative h-full p-6 flex flex-col justify-between text-white">
                 <div>
                   <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
+                  <p className="text-sm leading-relaxed opacity-90">
+                    {project.description}
+                  </p>
                  
                 </div>
 
