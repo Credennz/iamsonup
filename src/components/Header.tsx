@@ -31,7 +31,7 @@ const Header = () => {
     }`}>
       <div className="container-width section-padding">
         <div className="flex items-center justify-between h-16">
-            <img 
+            <img  onClick={() => navigate('/')}
                     src="logo.png"
                     className="logo-sonup"
                   />

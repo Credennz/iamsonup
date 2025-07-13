@@ -1,81 +1,40 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: "PricedHubble",
-      description: "Reimagine the employee real estate experience across 10 countries, launched online product using intelligent data, training teams around entire deals.",
-      image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
-      tags: ["Product Design", "Frontend", "Development", "SEO"],
+      title: "QuantSignal",
+      description: "",
+      image: "quantsignal.jpeg",
       size: "large"
     },
     {
       id: 2,
-      title: "Reality",
-      description: "Created a brand platform prototype for a real estate startup, which was accepted by the steering committee within a year.",
-      image: "https://images.unsplash.com/photo-1560472355-536de3962603?w=600&h=400&fit=crop",
-      tags: ["Branding", "Product Design", "Frontend", "Marketing"],
+      title: "Credennz",
+      description: "",
+      image: "credenz1.jpeg",
       size: "large"
     },
     {
       id: 3,
-      title: "Oxygen",
-      description: "Working within brand constraints on a business music experience for DJ parties, Apple DJ client who develops. 650K+ UUA.",
-      image: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=400&h=600&fit=crop",
-      tags: ["Branding", "UX", "Mobile", "Frontend"],
+      title: "Baaja",
+      description: "",
+      image: "baaja.jpeg",
       size: "tall"
     },
     {
       id: 4,
-      title: "Nivar",
-      description: "Drone live online virtual tour service for property managers, from commercial and industrial properties to private residences.",
-      image: "https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=400&h=600&fit=crop",
-      tags: ["Development", "Healthcare", "Marketing"],
-      size: "tall"
+      title: "StockSe",
+      description: "",
+      image: "stockse.jpeg",
+      size: "large"
     },
-    {
-      id: 5,
-      title: "NASA",
-      description: "Participated in application challenges where space commissions from external Space Mission.",
-      image: "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=400&h=600&fit=crop",
-      tags: ["Product Design", "Frontend", "Research"],
-      size: "tall"
-    },
-    {
-      id: 6,
-      title: "Saidgov",
-      description: "Prepaid solutions that help payment apps reach FintTech BNPL economies, focusing on a connected ecosystem.",
-      image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&h=400&fit=crop",
-      tags: ["AR", "Development", "Branding", "Product"],
-      size: "wide"
-    },
-    {
-      id: 7,
-      title: "Scentbird",
-      description: "Monthly design from a perfume studio helps consumers save money and gives for various OLO. Knowledge base system for engineers.",
-      image: "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=400&h=600&fit=crop",
-      tags: ["Product Design", "Frontend"],
-      size: "tall"
-    },
-    {
-      id: 8,
-      title: "Marcell",
-      description: "One Platform to clients around design speeds performance measurement and building a sweet brand.",
-      image: "https://images.unsplash.com/photo-1558655146-364adaf1fcc9?w=600&h=400&fit=crop",
-      tags: ["AR", "Development", "Healthcare"],
-      size: "wide"
-    },
-    {
-      id: 9,
-      title: "Google Bank",
-      description: "Working with Google Bank mobile offline mobile experience and creating the measured or Google pay.",
-      image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=400&h=600&fit=crop",
-      tags: ["Branding", "UX"],
-      size: "tall"
-    }
+    
   ];
 
   const getGridClass = (size: string) => {
@@ -122,13 +81,11 @@ const Projects = () => {
               <div className="relative h-full p-6 flex flex-col justify-between text-white">
                 <div>
                   <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
-                  <p className="text-sm leading-relaxed opacity-90">
-                    {project.description}
-                  </p>
+                 
                 </div>
 
                 {/* Tags */}
-                <div className="flex flex-wrap gap-2">
+              {/*   <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag, index) => (
                     <span
                       key={index}
@@ -137,14 +94,14 @@ const Projects = () => {
                       {tag}
                     </span>
                   ))}
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
         </div>
 
         {/* Bottom Section */}
-        <div className="bg-black rounded-3xl p-12 text-white">
+       {/*  <div className="bg-black rounded-3xl p-12 text-white">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end">
             <div>
               <h2 className="text-lg mb-4">Don't hesitate</h2>
@@ -171,8 +128,10 @@ const Projects = () => {
               <p>LINKEDLN</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </main>
+        <Contact />
+      <Footer />
     </div>
   );
 };

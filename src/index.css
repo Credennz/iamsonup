@@ -119,7 +119,8 @@ html {
   font-size: 67px;
 }
 .logo-sonup {
-  width:190px
+  width:190px;
+  cursor: pointer;
 }
 
 .video-background {
@@ -164,4 +165,7 @@ section.video-sec {
 
 .leading-relaxed {
   font-size: 20px;
+}
+.about-snp-img {
+  width: 60%;
 }

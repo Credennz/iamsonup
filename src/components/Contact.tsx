@@ -1,6 +1,8 @@
 
 import React, { useEffect, useRef, useState } from 'react';
 import { ArrowRight } from 'lucide-react';
+import { useNavigate, Link } from 'react-router-dom';
+
 
 const Contact = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -99,21 +101,48 @@ const Contact = () => {
           {/* Footer section */}
           <div className="flex items-end justify-between pt-8 pb-8">
             <div className="text-stone-400 text-sm">
-              <p>© 2016-2024</p>
-              <p>6:25:37 PM</p>
+              <p>© 2025</p>
+              <p>Sonup Bhuyan</p>
             </div>
             
             <div className="grid grid-cols-2 gap-x-16 gap-y-2 text-right">
               <div className="space-y-2">
-                <button className="text-stone-300 hover:text-stone-200 transition-colors text-sm block">
+                {/* <button className="text-stone-300 hover:text-stone-200 transition-colors text-sm block">
                   WORK
                 </button>
                 <button className="text-stone-300 hover:text-stone-200 transition-colors text-sm block">
                   ABOUT
-                </button>
+                </button> */}
               </div>
-              <div className="space-y-2">
-                <button className="text-stone-300 hover:text-stone-200 transition-colors text-sm block">
+              <div className="space-y-2 text-left">
+                              <a 
+                  href="https://twitter.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-stone-300 hover:text-stone-200 transition-colors text-sm block"
+                >
+                  TWITTER
+                </a>
+
+                <a 
+                  href="https://instagram.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-stone-300 hover:text-stone-200 transition-colors text-sm block"
+                >
+                  INSTAGRAM
+                </a>
+
+                <a 
+                  href="https://linkedin.com" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-stone-300 hover:text-stone-200 transition-colors text-sm block"
+                >
+                  LINKEDIN
+                </a>
+
+                {/* <button className="text-stone-300 hover:text-stone-200 transition-colors text-sm block">
                   TWITTER
                 </button>
                 <button className="text-stone-300 hover:text-stone-200 transition-colors text-sm block">
@@ -121,7 +150,7 @@ const Contact = () => {
                 </button>
                 <button className="text-stone-300 hover:text-stone-200 transition-colors text-sm block">
                   LINKEDIN
-                </button>
+                </button> */}
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container-width section-padding">
         <div className="text-center">
           <div className="text-sm text-gray-400">
-            © 2024 Sonup Bhuyan. All rights reserved.
+            © 2025 Sonup Bhuyan. All rights reserved.
           </div>
         </div>
       </div>

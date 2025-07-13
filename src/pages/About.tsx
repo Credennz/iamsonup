@@ -1,21 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
+import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 const About = () => {
   const companies = [
-    { name: 'accenture', logo: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=120&h=60&fit=crop&crop=center' },
-    { name: 'BCG', logo: 'https://images.unsplash.com/photo-1560472355-536de3962603?w=120&h=60&fit=crop&crop=center' },
-    { name: 'NASA', logo: 'https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=120&h=60&fit=crop&crop=center' },
-    { name: 'BARCLAYS', logo: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=120&h=60&fit=crop&crop=center' },
-    { name: 'Royal Caribbean Group', logo: 'https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=120&h=60&fit=crop&crop=center' },
-    { name: 'nauto', logo: 'https://images.unsplash.com/photo-1558655146-364adaf1fcc9?w=120&h=60&fit=crop&crop=center' },
-    { name: 'Cordless', logo: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=120&h=60&fit=crop&crop=center' },
-    { name: 'Deloitte', logo: 'https://images.unsplash.com/photo-1590736969955-71cc94901144?w=120&h=60&fit=crop&crop=center' },
-    { name: 'nexar', logo: 'https://images.unsplash.com/photo-1611532736557-64de1817c9dd?w=120&h=60&fit=crop&crop=center' },
-    { name: 'SKODA', logo: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=120&h=60&fit=crop&crop=center' },
-    { name: 'SCENTBIRD', logo: 'https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=120&h=60&fit=crop&crop=center' },
-    { name: 'Raiffeisen BANK', logo: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=120&h=60&fit=crop&crop=center' },
+    { name: 'BAAJA', logo: '' },
+    { name: 'QUANTSIGNAL', logo: '' },
+    { name: 'CREDENNZ', logo: '' },
+    { name: 'STOCKSE', logo: '' },
   ];
 
   const experiences = [
@@ -115,19 +109,17 @@ Every project I touch is fueled by intuition, strategy, and relentless execution
             ))}
           </div>
         </section>
-
-        {/* Collaboration Section */}
+{/* 
         <div className="border-t border-gray-800 pt-8 mb-20">
           <p className="text-gray-500 text-sm mb-4">WANT TO COLLABORATE?</p>
         </div>
 
-        {/* Bottom Section */}
         <div className="border-t border-gray-800 pt-12">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-8">
             <div>
               <h2 className="text-lg mb-4 text-gray-400">Don't hesitate</h2>
               <div className="text-8xl md:text-9xl font-bold leading-none">
-                TARASOV
+                <img src='sonup.png' className='about-snp-img' ></img>
               </div>
             </div>
             <div className="mt-8 md:mt-0">
@@ -155,8 +147,10 @@ Every project I touch is fueled by intuition, strategy, and relentless execution
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </main>
+      <Contact />
+      <Footer />
     </div>
   );
 };
